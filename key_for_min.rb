@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
       min_value=value
     end
   end
-  # min_value
-  binding.pry
+  min_value
+  # binding.pry
 end
 key_for_min_value({:blake => 10, :ashley => 50, :adam => 17})
